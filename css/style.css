@@ -4,6 +4,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing:border-box; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,4 +51,26 @@ h2 {
  .img-product {
     object-fit: cover;
     width: 500px;
+}
+
+#menu {
+    position: fixed;
+    z-index: 1;
+    right: 15px;
+    top: 50px;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#menu li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 13px 17px;
+    margin-left: 20px;
 }
