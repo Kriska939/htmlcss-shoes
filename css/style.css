@@ -10,3 +10,44 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
     text-align: center;
     }
+
+/* MAIN */
+
+.full-page {
+    height: 100vh;
+    position: relative;
+}
+
+#red-bg {
+    background-color: red;
+}
+
+#green-bg {
+    background-color: green;
+}
+
+#yellow-bg {
+    background-color: yellow;
+}
+
+h2 {
+    font-size: 2rem;
+    color: yellow;
+}
+
+#special_h2 {
+    color: green;
+}
+
+.full-page .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+ .img-product {
+    object-fit: cover;
+    width: 500px;
+}
