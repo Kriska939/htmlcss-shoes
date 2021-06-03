@@ -19,15 +19,15 @@ body {
     position: relative;
 }
 
-#red-bg {
+.red-bg {
     background-color: red;
 }
 
-#green-bg {
+.green-bg {
     background-color: green;
 }
 
-#yellow-bg {
+.yellow-bg {
     background-color: yellow;
 }
 
@@ -45,7 +45,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: 50%;
 }
 
  .img-product {
